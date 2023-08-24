@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+ 
+  }
+  @media (min-width: 1440px) {
+    .container {
+      padding: 50px 260px 57px 270px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .container {
+      padding: 50px 24px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 15px 0;
+    }
+  }
